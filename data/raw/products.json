@@ -1,0 +1,62 @@
+[
+  {
+    "product_id": 2001,
+    "product_name": "Laptop",
+    "category": "Electronics",
+    "brand": "Dell"
+  },
+  {
+    "product_id": 2002,
+    "product_name": "Shoes",
+    "category": "Fashion",
+    "brand": "Nike"
+  },
+  {
+    "product_id": 2003,
+    "product_name": "Mixer",
+    "category": "Home",
+    "brand": "Philips"
+  },
+  {
+    "product_id": 2004,
+    "product_name": "Mobile",
+    "category": "Electronics",
+    "brand": "Samsung"
+  },
+  {
+    "product_id": 2005,
+    "product_name": "Dress",
+    "category": "Fashion",
+    "brand": "Zara"
+  },
+  {
+    "product_id": 2006,
+    "product_name": "Rice Bag",
+    "category": "Grocery",
+    "brand": "India Gate"
+  },
+  {
+    "product_id": 2007,
+    "product_name": "Headphones",
+    "category": "Electronics",
+    "brand": "Sony"
+  },
+  {
+    "product_id": 2008,
+    "product_name": "Bedsheet",
+    "category": "Home",
+    "brand": "Spaces"
+  },
+  {
+    "product_id": 2009,
+    "product_name": "Oil Pack",
+    "category": "Grocery",
+    "brand": "Fortune"
+  },
+  {
+    "product_id": 2010,
+    "product_name": "Tablet",
+    "category": "Electronics",
+    "brand": "Lenovo"
+  }
+]

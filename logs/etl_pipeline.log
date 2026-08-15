@@ -1,0 +1,44 @@
+2026-08-05 22:36:46,217 | INFO | Starting E-commerce Multi-Source ETL Pipeline
+2026-08-05 22:36:46,449 | INFO | Audit started. Audit ID: 9
+2026-08-05 22:36:46,449 | INFO | Step 1: Extracting orders from CSV
+2026-08-05 22:36:46,450 | INFO | Reading orders CSV file: data/raw/orders.csv
+2026-08-05 22:36:46,482 | INFO | Orders CSV file read successfully. Records: 10
+2026-08-05 22:36:46,482 | INFO | Step 2: Extracting products from JSON
+2026-08-05 22:36:46,482 | INFO | Reading products JSON file: data/raw/products.json
+2026-08-05 22:36:46,565 | INFO | Products JSON file read successfully. Records: 10
+2026-08-05 22:36:46,565 | INFO | Step 4: Cleaning and validating orders
+2026-08-05 22:36:46,566 | INFO | Starting order validation
+2026-08-05 22:36:46,600 | INFO | Validation completed. Valid records: 8
+2026-08-05 22:36:46,601 | INFO | Validation completed. Rejected records: 2
+2026-08-05 22:36:46,601 | INFO | Step 5: Merging extracted data using Pandas
+2026-08-05 22:36:46,620 | INFO | Step 6: Applying business transformations
+2026-08-05 22:36:46,634 | INFO | Step 7: Saving final reporting dataset as CSV
+2026-08-05 22:36:46,645 | INFO | Step 8: Saving rejected orders as CSV
+2026-08-05 22:36:46,648 | INFO | Step 9: Loading final reporting dataset into SQL Server
+2026-08-05 22:36:47,039 | INFO | Connecting to SQL Server for final report load
+2026-08-05 22:36:47,071 | INFO | Final report loaded into SQL Server. Records: 8
+2026-08-05 22:36:47,073 | INFO | SQL Server connection closed for final report load
+2026-08-05 22:36:59,782 | INFO | Audit updated as SUCCESS. Audit ID: 9
+2026-08-05 22:36:59,783 | INFO | ETL Pipeline completed successfully
+2026-08-15 20:58:00,507 | INFO | Starting E-commerce Multi-Source ETL Pipeline
+2026-08-15 20:58:01,497 | INFO | Audit started. Audit ID: 10
+2026-08-15 20:58:01,498 | INFO | Step 1: Extracting orders from CSV
+2026-08-15 20:58:01,498 | INFO | Reading orders CSV file: data/raw/orders.csv
+2026-08-15 20:58:01,552 | INFO | Orders CSV file read successfully. Records: 10
+2026-08-15 20:58:01,552 | INFO | Step 2: Extracting products from JSON
+2026-08-15 20:58:01,552 | INFO | Reading products JSON file: data/raw/products.json
+2026-08-15 20:58:01,673 | INFO | Products JSON file read successfully. Records: 10
+2026-08-15 20:58:01,674 | INFO | Step 4: Cleaning and validating orders
+2026-08-15 20:58:01,674 | INFO | Starting order validation
+2026-08-15 20:58:01,702 | INFO | Validation completed. Valid records: 8
+2026-08-15 20:58:01,703 | INFO | Validation completed. Rejected records: 2
+2026-08-15 20:58:01,703 | INFO | Step 5: Merging extracted data using Pandas
+2026-08-15 20:58:01,714 | INFO | Step 6: Applying business transformations
+2026-08-15 20:58:01,728 | INFO | Step 7: Saving final reporting dataset as CSV
+2026-08-15 20:58:01,738 | INFO | Step 8: Saving rejected orders as CSV
+2026-08-15 20:58:01,742 | INFO | Step 9: Loading final reporting dataset into SQL Server
+2026-08-15 20:58:02,104 | INFO | Connecting to SQL Server for final report load
+2026-08-15 20:58:02,177 | INFO | Final report loaded into SQL Server. Records: 8
+2026-08-15 20:58:02,180 | INFO | SQL Server connection closed for final report load
+2026-08-15 20:58:02,214 | INFO | Audit updated as SUCCESS. Audit ID: 10
+2026-08-15 20:58:02,225 | INFO | ETL Pipeline completed successfully
