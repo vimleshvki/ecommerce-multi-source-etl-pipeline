@@ -45,7 +45,7 @@ def run_ecommerce_etl_pipeline():
             products_df
             #customers_df
         )
-
+        #transformation.
         logger.info("Step 6: Applying business transformations")
         final_report_df = apply_business_transformations(merged_df)
 
